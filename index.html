@@ -115,23 +115,58 @@
         <legend>
           Leave us a comment
         </legend>
-        <label>
-          First Name : <input type="text" name="FirstName"></input>
-        </label>
-        <p>
-        <label>
+        <div>
+          <label>
+           First Name : <input type="text" name="FirstName"></input>
+          </label>
+        </div>
+        <div>
+          <label>
           Last Name : <input type="text" name="LastName"></input>
-        </label>
-        <label>
-          Email: <input type="emal" name="Email"></input>
-        </label>
-        <p></p>
-        <label>
-          Telephone : <input type="tel" name="Telephone"></input>
-        </label>
-
+          </label>
+        </div>      
+        <div>
+          <label>
+            Email: <input type="emal" name="Email"></input>
+          </label>
+        </div>
+        
+        <div>
+          <label>
+            Phone number : <input type="tel" name="Telephone"></input>
+          </label>
+        </div>
+        <div>
+          <label>
+          Rate us:
+            <select name="Rating" >
+              <option value="Very good" selected>Very good</option>
+              <option value="Good" >Good</option>
+              <option value="Bad" >Bad</option>
+              <option value="Very bad" >Very bad</option>
+            </select>
+          </label>
+        </div>
+        <div>
+          <label>
+            Your comment: 
+            <textarea name="Comment" rows="4" cols=50> </textarea>
+          </label>    
+        </div>
+        
+        <div>
+          <label>
+            <p>Would you visit us again?</p>
+            Yes: <input type="radio" name="confirmation" value="yes" />
+            No: <input type="radio" name="confirmation" value="no" />
+          </label>    
+        </div>
+        <div>
+          <label>    
+            <input type="submit" name="submit" value="Submit" />
+          </label>
+        </div>        
       </fieldset>
-    </form>
-
+    </form>   
   </body>
 </html>
